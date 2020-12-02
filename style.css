@@ -1,0 +1,113 @@
+body {
+	background-image: url(images/Background.jpeg);
+	font-family: Arial, sans-serif;
+	background-size: contain;
+}
+
+.header-div {
+	background-image: url(images/blog-cafe-background.png);
+	background-size: contain;
+	height: 500px;
+	background-position: top;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	border-radius: 50%;
+	border: solid 15px #ebcfa659;
+}
+
+.name-title {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.box {
+	position: absolute;
+}
+
+.top {
+	top: 0;
+}
+.middle {
+	top: 50%;
+	margin-top: -85px; /*half of the .box height*/
+}
+.bottom {
+	bottom: 0;
+}
+
+.left {
+	left: 100px;
+}
+.center {
+	left: 50%;
+	margin-left: -85px; /*half of the .box width*/
+}
+.right {
+	right: 0;
+}
+
+.column-left {
+	float: left;
+	margin: 0.5%;
+	width: 22%;
+}
+
+.column-right {
+	float: right;
+	margin: 0.5%;
+	width: 72%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-style: solid 1px;
+	padding: 5px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.skill-category {
+	display: inline;
+}
+
+.skill-tag {
+	color: #003053;
+	background-color: #32a5f6;
+	border-color: transparent;
+	display: inline-block;
+	padding: 0.4em 0.5em;
+	margin: 2px 2px 2px 0;
+	font-size: 13px;
+	line-height: 1;
+	white-space: nowrap;
+	text-decoration: none;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+}
+
+.first-level-indent {
+	text-indent: 20px;
+}
+
+.second-level-indent {
+	text-indent: 40px;
+}
