@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="style.css"/>
-        <title>My Page</title>
+        <title>Donglin's Space</title>
     </head>
     <body>
         <header style="height: 100%;">
@@ -13,7 +13,7 @@
                 <div class="box middle center">
                     <img class="avatar" src="./images/Avatar.jpg">
                     <p class="name-title" >
-                        Welcome to Donglin's Page
+                        Welcome to Donglin's Space
                     </p> 
                 </div>
                 
@@ -21,7 +21,7 @@
         </header>
         <section>
             <div id="left-column" class="column-left content">
-                <div id="intro">
+                <div id="intro" class="bottom-border">
                     <h3 class="text-center">Quick Intro</h3>
                     <p style="margin-left: 20px; margin-right: 20px;" class="first-level-indent">
                         Hi stranger, welcome to my page! I'm a gradutate Programmer, love coding and keep learning.From China and currently living in Australia. I hope this page can give you a quick description of me.
@@ -29,7 +29,7 @@
                 </div>
                 <br>
 
-                <div id="skill-stack">
+                <div id="skill-stack" class="bottom-border">
                     <h3 class="text-center">Skill Stack</h3>
                     <ul>
                         <li>
@@ -78,9 +78,11 @@
                             <div>
                                 <span>Programming Basic:</span>
                                 <span>
-                                    <div class="skill-tag">Algorithm</div>
                                     <div class="skill-tag">Java</div>
                                     <div class="skill-tag">Python</div>
+                                    <div class="skill-tag">JavaScript</div>
+                                    <div class="skill-tag">Swift</div>
+                                    <div class="skill-tag">Algorithm</div>
                                 </span>
                             </div>
                         </li>
@@ -88,7 +90,7 @@
                 </div>
                 <br>
 
-                <div id="education-background">
+                <div id="education-background" class="bottom-border">
                     <h3 class="text-center">
                         Education Background
                     </h3>
@@ -117,7 +119,7 @@
                 </div>
                 <br>
 
-                <div id="working-experience">
+                <div id="working-experience" class="bottom-border">
                     <h3 class="text-center">
                         Working Experience
                     </h3>
@@ -158,11 +160,13 @@
 
             <div id="right-column" class="column-right content">
                 <ul id="projects">
-                    <li id="project-web-node-swivel">
+                    <li id="project-web-node-swivel" class="bottom-border">
                         <div class="project-info-box">
                             <h4>Web Application - Swivel</h4>
                             <p>
                                 <b>Purpose:</b> This website is designed to help wheelchair users to find find and evaluate convenient information of train stations, buildings, parks and parking spaces. User can find locations and reviews of the locations using map and can also make reviews of their own. 
+                                User can signup and login with email and password, using JWT for authortencation. 
+                                This app also support reset password function. 
                             </p>
                             <p>
                                 <span><b>Tech features:</b></span> 
@@ -170,13 +174,18 @@
                                     <li><b>Back-end:</b> NodeJS + Express</li>
                                     <li><b>Front-end:</b> Page is rendered from back-end directly, using pug package. HTML + CSS applied</li>
                                     <li><b>Database:</b> MongoDB Atlas</li>
-                                    <li><b>Deployment:</b> Heroku Cloud Platform/li>
+                                    <li><b>Deployment:</b> <a href="https://find-accessibility.herokuapp.com/app/homepage" target="_blank">Hosted on Heroku</a>
+                                    </li>
+                                    <li>
+                                        <b>Github Link:</b>
+                                        <a href="https://github.com/zdlbad/find_accessibility" target="_blank"> Github</a>
+                                    </li>
                                 </ul> 
                             </p>
-                            <a href="https://find-accessibility.herokuapp.com/app/homepage"><b>Project link</b></a>
+                            
                         </div>
                     </li>
-                    <li id="project-mobile-android-swivel">
+                    <li id="project-mobile-android-swivel" class="bottom-border">
                         <div class="project-info-box">
                             <h4>Android mobile app (providing navigation information for wheelchair users in Melbourne CBD area)</h4>
                             <p>
@@ -187,13 +196,15 @@
                                 <ul>
                                     <li><b>Mobile App:</b> Android native + Firebase API</li>
                                     <li><b>Database:</b> Firebase</li>
-                                    <li><b>Deployment:</b> Google Play</li>
+                                    <li><b>Deployment:</b> <a href="https://play.google.com/store/apps/details?id=com.zhangdonglin.googlemapsandplace" target="_blank"> Google Play</a></li>
+                                    <li><b>Github Link:</b><a href="https://github.com/zdlbad/SwivelApp" target="_blank"> Github</a>
+                                    </li>
                                 </ul> 
                             </p>
-                            <a href="https://play.google.com/store/apps/details?id=com.zhangdonglin.googlemapsandplace">Project link(App in Google Play)</a>
+                            
                         </div>
                     </li>
-                    <li id="project-mobile-ios-bodytracking">
+                    <li id="project-mobile-ios-bodytracking" class="bottom-border">
                         <div class="project-info-box">
                             <h4>iOS application with Raspberry Pi and sensors (visually tracking body change):</h4>
                             <p>
@@ -207,12 +218,16 @@
                                     <li><b>Database:</b> Firebase</li>
                                     <li><b>Sensor:</b>Raspberry Pi, Camera, Distance sensor, Weight sensor</li>
                                     <li><b>Deployment:</b> Not deployed</li>
+                                    <li>
+                                        <b>Github Link:</b>
+                                        <a href="https://github.com/LHYDonna/Family-health-diary" target="_blank"> Github</a>
+                                    </li>
                                 </ul> 
                             </p>
-                            <a href="#">(Not Available)Project link</a>
+                            
                         </div>
                     </li>
-                    <li id="project-web-j2ee-bank">
+                    <li id="project-web-j2ee-bank" class="bottom-border">
                         <div class="project-info-box">
                             <h4>Web application (simulated banking system)</h4>
                             <p>
@@ -225,9 +240,11 @@
                                     <li><b>Front-end: App:</b> JSP + HTML + CSS</li>
                                     <li><b>Database:</b> SQL</li>
                                     <li><b>Deployment:</b> Not deployed</li>
+                                    <li>
+                                        <b>Github Link:</b> No Github
+                                    </li>
                                 </ul> 
                             </p>
-                            <a href="#">(Not Available)Project link</a>
                         </div>
                     </li>
                     <li>

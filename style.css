@@ -94,7 +94,7 @@ body {
 	display: inline-block;
 	padding: 0.4em 0.5em;
 	margin: 2px 2px 2px 0;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1;
 	white-space: nowrap;
 	text-decoration: none;
@@ -110,4 +110,9 @@ body {
 
 .second-level-indent {
 	text-indent: 40px;
+}
+
+.bottom-border {
+	border-bottom: solid 1px white;
+	margin-right: 5px;
 }
